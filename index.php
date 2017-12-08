@@ -12,5 +12,13 @@
  * realine-
  * kommentaar
  */
+
+// teksti väljastamine
+// print funktsiooniga
+print "See on tavaline tekst<br/>\n";
+print 'See on veel üks rida tavalisest tekstist<br />';
+// echo funktsiooniga
+echo "See on tavaline tekst jutumärkides<br />\n";
+echo 'See on tavaline tekst ülakomades<br />';
 ?>
 
