@@ -5,5 +5,5 @@
  * Date: 14.12.2017
  * Time: 13:14
  */
-$anna = 'Anna';
-echo 'Minu nimi on '.$anna.'<br />';
+define('MINU_NIMI','Anna');
+echo 'Minu nimi on '.MINU_NIMI.'<br />';
