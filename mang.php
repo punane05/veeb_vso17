@@ -12,7 +12,7 @@ function vorm(){
     $katseteArv = isset($katseteArv) ?  ++$katseteArv : 0;
 //    echo $serveriArv.'<br />';
     echo '
-    <form action="mang.php" method="post">
+    <form action="'.$_SERVER['PHP_SELF'].'" method="post">
     <input type="hidden" name="serveriArv" value="'.$serveriArv.'">
     <input type="hidden" name="katseteArv" value="'.$katseteArv.'">
     <input type="text" name="kasutajaArv"><br />
