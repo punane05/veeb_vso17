@@ -10,7 +10,16 @@ class tekst
 { // klassi algus
     // klassi omadused - väljad - fields
     // klassi muutuja
-    var $sone = ''; // teksti kirjeldavad sõnad
+    var $sone = '';// teksti kirjeldavad sõnad
+
+    /**
+     * tekst constructor.
+     * @param string $sone
+     */
+    public function __construct($sone)
+    {
+        $this->maaraTekst($sone);
+    }
     // klassi tegevused
     // meetodid
     // teksti määramine
@@ -22,4 +31,5 @@ class tekst
     function prindiTekst(){
         echo $this->sone.'<br />';
     }
+
 } // klassi lõpp
